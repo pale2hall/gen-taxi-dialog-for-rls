@@ -1,0 +1,56 @@
+{
+    "enabled": true,
+    "llm": {
+        "host":        "127.0.0.1",
+        "port":        1234,
+        "path":        "/v1",
+        "apiKey":      "lm-studio",
+        "model":       "local-model",
+        "maxTokens":   150,
+        "temperature": 0.92
+    },
+    "elevenlabs": {
+        "apiKey": "YOUR_ELEVENLABS_KEY_HERE",
+        "modelId": "eleven_turbo_v2_5",
+        "outputFormat": "mp3_44100_128"
+    },
+    "voiceLibrary": [
+        { "voiceId": "21m00Tcm4TlvDq8ikWAM", "name": "Rachel",  "gender": "female", "age": "adult",       "accent": "american", "style": "calm" },
+        { "voiceId": "AZnzlk1XvdvUeBnXmlld", "name": "Domi",    "gender": "female", "age": "young adult",  "accent": "american", "style": "energetic" },
+        { "voiceId": "EXAVITQu4vr4xnSDxMaL", "name": "Bella",   "gender": "female", "age": "adult",        "accent": "american", "style": "soft" },
+        { "voiceId": "ErXwobaYiN019PkySvjV", "name": "Antoni",  "gender": "male",   "age": "young adult",  "accent": "american", "style": "conversational" },
+        { "voiceId": "VR6AewLTigWG4xSOukaG", "name": "Arnold",  "gender": "male",   "age": "adult",        "accent": "american", "style": "crisp" },
+        { "voiceId": "pNInz6obpgDQGcFmaJgB", "name": "Adam",    "gender": "male",   "age": "adult",        "accent": "american", "style": "deep" },
+        { "voiceId": "yoZ06aMxZJJ28mfd3POQ", "name": "Sam",     "gender": "male",   "age": "young adult",  "accent": "american", "style": "raspy" },
+        { "voiceId": "jBpfuIE2acCO8z3wKNLl", "name": "Elli",    "gender": "female", "age": "teen",         "accent": "american", "style": "upbeat" },
+        { "voiceId": "MF3mGyEYCl7XYWbV9V6O", "name": "Mia",     "gender": "female", "age": "young adult",  "accent": "british",  "style": "warm" },
+        { "voiceId": "TxGEqnHWrfWFTfGW9XjX", "name": "Josh",    "gender": "male",   "age": "young adult",  "accent": "american", "style": "deep" }
+    ],
+    "voices": {
+        "STANDARD":   { "voiceId": "21m00Tcm4TlvDq8ikWAM", "enabled": true },
+        "BUSINESS":   { "voiceId": "VR6AewLTigWG4xSOukaG", "enabled": true },
+        "LUXURY":     { "voiceId": "EXAVITQu4vr4xnSDxMaL", "enabled": true },
+        "COMMUTER":   { "voiceId": "ErXwobaYiN019PkySvjV", "enabled": true },
+        "THRILL":     { "voiceId": "yoZ06aMxZJJ28mfd3POQ", "enabled": true },
+        "EXECUTIVE":  { "voiceId": "pNInz6obpgDQGcFmaJgB", "enabled": true },
+        "FAMILY":     { "voiceId": "AZnzlk1XvdvUeBnXmlld", "enabled": true },
+        "TOURIST":    { "voiceId": "MF3mGyEYCl7XYWbV9V6O", "enabled": true },
+        "STUDENT":    { "voiceId": "jBpfuIE2acCO8z3wKNLl", "enabled": true },
+        "PARTY":      { "voiceId": "yoZ06aMxZJJ28mfd3POQ", "enabled": true }
+    },
+    "volume": 0.85,
+    "enabledEvents": {
+        "boarding":     true,
+        "boarded":      true,
+        "halfway":      true,
+        "speedCamera":  true,
+        "policeChase":  true,
+        "crash":        true,
+        "farewell":     true
+    },
+    "crashDamageThreshold": 0.08,
+    "halfwayRoadFactor": 1.35,
+    "preGenerateReactiveEvents": false,
+    "saveResponses": true,
+    "debugLogging": true
+}

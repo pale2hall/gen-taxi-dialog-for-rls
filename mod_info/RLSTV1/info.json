@@ -1,0 +1,13 @@
+{
+    "tag_line": "AI-generated passenger voice dialogue for the RLS Taxi system",
+    "tagid": "RLSTV1",
+    "path": "RLSTV1",
+    "filename": "rls_taxi_voice.zip",
+    "title": "RLS Taxi Voice (LLM + ElevenLabs)",
+    "version_string": "1.0.0",
+    "rating_avg": 5,
+    "last_update": 0,
+    "user_id": 0,
+    "username": "",
+    "message": "Adds LLM-generated, ElevenLabs-synthesized passenger voice dialogue to the RLS Career Overhaul taxi system.\n\nPassengers speak in character when you pick them up, comment mid-ride based on your driving, react to police chases, speed cameras, and crashes, and say a personalised farewell at the end.\n\nRequires RLS Career Overhaul v2.6.0+. Configure your API keys in settings/taxiVoice.json before enabling.\n\nSupports OpenAI, LMStudio, Ollama, or any OpenAI-compatible LLM endpoint."
+}
