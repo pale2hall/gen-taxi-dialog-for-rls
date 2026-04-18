@@ -1,3 +1,19 @@
+
+
+---
+
+---
+
+---
+
+# Vibecoded non-functional mess. This mesage will be removed if I get it to work for myself. - Pale
+
+---
+
+---
+
+---
+
 # RLS Taxi Voice
 
 AI-generated passenger dialogue for the **RLS Career Overhaul** taxi system.  
